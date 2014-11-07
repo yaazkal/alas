@@ -19,15 +19,15 @@ projects[seo_checker][version] = "1.6"
 
 projects[boolean][version] = "1.1"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 projects[checklistapi][version] = "1.0"
 
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.16"
 
 projects[context][version] = "3.1"
 
-projects[date][version] = "2.6"
+projects[date][version] = "2.8"
 
 projects[db_maintenance][version] = "1.1"
 
@@ -35,7 +35,7 @@ projects[delta][version] = "3.0-beta11"
 
 projects[fontyourface][version] = "2.8"
 
-projects[entity][version] = "1.2"
+projects[entity][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
@@ -43,11 +43,11 @@ projects[entityreference][version] = "1.1"
 
 projects[fb_social][version] = "2.0-beta4"
 
-projects[media][version] = "1.3"
+projects[media][version] = "1.4"
 
 projects[globalredirect][version] = "1.5"
 
-projects[i18n][version] = "1.10"
+projects[i18n][version] = "1.11"
 
 projects[imagefield_focus][version] = "1.0"
 
@@ -71,7 +71,7 @@ projects[media_youtube][version] = "1.0-beta3"
 
 projects[mediafront][version] = "2.2"
 
-projects[metatags_quick][version] = "2.7"
+projects[metatags_quick][version] = "2.9"
 
 projects[module_filter][version] = "1.8"
 
@@ -79,7 +79,7 @@ projects[omega_tools][version] = "3.0-rc4"
 
 projects[pathauto][version] = "1.2"
 
-projects[print][version] = "1.2"
+projects[print][version] = "1.3"
 
 projects[qa_checklist][version] = "1.0-rc1"
 
@@ -101,11 +101,11 @@ projects[transliteration][version] = "3.1"
 
 projects[variable][version] = "2.3"
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[views_fluid_grid][version] = "3.0"
 
-projects[webform][version] = "3.19"
+projects[webform][version] = "3.21"
 
 projects[xmlsitemap][version] = "2.0-rc2"
 
