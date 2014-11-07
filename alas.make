@@ -77,6 +77,8 @@ projects[module_filter][version] = "1.8"
 
 projects[omega_tools][version] = "3.0-rc4"
 
+projects[panels][version] = "3.3"
+
 projects[pathauto][version] = "1.2"
 
 projects[print][version] = "1.3"
@@ -123,13 +125,6 @@ projects[skeletontheme][version] = "1.0"
 projects[session_expire][download][type] = ""
 projects[session_expire][download][url] = ""
 projects[session_expire][type] = "module"
-
-; Themes
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[alas_de_mariposa][download][type] = "get"
-projects[alas_de_mariposa][download][url] = "http://www.alasdemariposa.com/alas_de_mariposa.tar.gz"
-projects[alas_de_mariposa][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
