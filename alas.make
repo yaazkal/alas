@@ -77,8 +77,6 @@ projects[module_filter][version] = "1.8"
 
 projects[omega_tools][version] = "3.0-rc4"
 
-projects[panels][version] = "3.3"
-
 projects[pathauto][version] = "1.2"
 
 projects[print][version] = "1.3"
