@@ -1,4 +1,4 @@
-; Fluturi master makefile
+; Alas master makefile
 ;
 api = 2
 core = 7.x
@@ -7,7 +7,7 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.32.1.tar.gz"
 
 ; Modules
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 
 projects[ajax_poll][version] = "1.1"
 
