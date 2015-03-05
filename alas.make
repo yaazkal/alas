@@ -4,7 +4,7 @@ api = 2
 core = 7.x
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.32.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.34.1.tar.gz"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
@@ -25,7 +25,7 @@ projects[checklistapi][version] = "1.0"
 
 projects[ckeditor][version] = "1.16"
 
-projects[context][version] = "3.1"
+projects[context][version] = "3.6"
 
 projects[date][version] = "2.8"
 
@@ -35,7 +35,7 @@ projects[delta][version] = "3.0-beta11"
 
 projects[fontyourface][version] = "2.8"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[entitycache][version] = "1.2"
 
@@ -73,7 +73,7 @@ projects[mediafront][version] = "2.2"
 
 projects[metatags_quick][version] = "2.9"
 
-projects[module_filter][version] = "1.8"
+projects[module_filter][version] = "2.0"
 
 projects[omega_tools][version] = "3.0-rc4"
 
@@ -101,11 +101,11 @@ projects[transliteration][version] = "3.1"
 
 projects[variable][version] = "2.3"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 
 projects[views_fluid_grid][version] = "3.0"
 
-projects[webform][version] = "3.21"
+projects[webform][version] = "3.22"
 
 projects[xmlsitemap][version] = "2.0-rc2"
 
