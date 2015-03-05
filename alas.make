@@ -135,6 +135,6 @@ libraries[mailchimp][type] = "library"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[player][download][type] = "get"
-libraries[player][download][url] = "http://www.alasdemariposa.com/player.tar.gz"
+libraries[player][download][url] = "https://github.com/happyworm/jPlayer/archive/2.9.2.tar.gz"
 libraries[player][directory_name] = "player"
 libraries[player][type] = "library"
