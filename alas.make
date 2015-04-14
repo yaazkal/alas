@@ -47,7 +47,7 @@ projects[media][version] = "1.5"
 
 projects[globalredirect][version] = "1.5"
 
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.11"
 
 projects[imagefield_focus][version] = "1.0"
 
