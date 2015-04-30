@@ -101,7 +101,7 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 
 projects[views_fluid_grid][version] = "3.0"
 
