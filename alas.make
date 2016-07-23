@@ -101,13 +101,13 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.14"
 
 projects[views_fluid_grid][version] = "3.0"
 
 projects[webform][version] = "3.24"
 
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 ; Themes
 projects[adaptivetheme][version] = "2.2"
