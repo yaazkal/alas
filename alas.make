@@ -4,7 +4,7 @@ api = 2
 core = 7.x
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.41.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.50.1.tar.gz"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
