@@ -122,14 +122,6 @@ projects[session_expire][download][type] = ""
 projects[session_expire][download][url] = ""
 projects[session_expire][type] = "module"
 
-; Libraries
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[player][download][type] = "get"
