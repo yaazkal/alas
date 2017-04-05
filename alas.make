@@ -61,8 +61,6 @@ projects[lightbox2][version] = "1.0-beta1"
 
 projects[link][version] = "1.3"
 
-projects[mailchimp][version] = "3.3"
-
 projects[media_flickr][version] = "1.0-alpha4"
 
 projects[media_vimeo][version] = "2.1"
