@@ -33,6 +33,8 @@ projects[db_maintenance][version] = "1.2"
 
 projects[delta][version] = "3.0-beta11"
 
+projects[file_entity][version] =  "2.0-beta3"
+
 projects[fontyourface][version] = "2.8"
 
 projects[entity][version] = "1.6"
