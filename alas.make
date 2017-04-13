@@ -43,7 +43,7 @@ projects[entityreference][version] = "1.1"
 
 projects[fb_social][version] = "2.0-beta4"
 
-projects[media][version] = "1.5"
+projects[media][version] = "2.0"
 
 projects[globalredirect][version] = "1.5"
 
@@ -60,6 +60,8 @@ projects[libraries][version] = "2.2"
 projects[lightbox2][version] = "1.0-beta1"
 
 projects[link][version] = "1.3"
+
+projects[mailchimp][version] = "4.8"
 
 projects[media_flickr][version] = "1.0-alpha4"
 
@@ -121,6 +123,14 @@ projects[skeletontheme][version] = "1.0"
 projects[session_expire][download][type] = ""
 projects[session_expire][download][url] = ""
 projects[session_expire][type] = "module"
+
+; Libraries
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://github.com/thinkshout/mailchimp-api-php/releases/download/v1.0.6/v1.0.6-package.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
