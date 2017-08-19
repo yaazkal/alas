@@ -65,7 +65,7 @@ projects[link][version] = "1.4"
 
 projects[mailchimp][version] = "4.8"
 
-projects[media_flickr][version] = "1.0-alpha5"
+projects[media_flickr][version] = "1.0-alpha4"
 
 projects[media_vimeo][version] = "2.1"
 
