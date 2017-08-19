@@ -41,7 +41,7 @@ projects[entity][version] = "1.8"
 
 projects[entitycache][version] = "1.5"
 
-projects[entityreference][version] = "1.4"
+projects[entityreference][version] = "1.5"
 
 projects[fb_social][version] = "2.0-beta4"
 
@@ -65,7 +65,7 @@ projects[link][version] = "1.4"
 
 projects[mailchimp][version] = "4.8"
 
-projects[media_flickr][version] = "1.0-alpha4"
+projects[media_flickr][version] = "1.0-alpha5"
 
 projects[media_vimeo][version] = "2.1"
 
@@ -103,7 +103,7 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.16"
+projects[views][version] = "3.17"
 
 projects[views_fluid_grid][version] = "3.0"
 
