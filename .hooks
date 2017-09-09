@@ -1,0 +1,2 @@
+deploy: |
+  drursh make alas.make
