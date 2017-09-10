@@ -1,2 +1,2 @@
 deploy: |
-  drursh make alas.make
+  drush make alas.make
