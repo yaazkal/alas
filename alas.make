@@ -4,7 +4,7 @@ api = 2
 core = 7.x
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.56.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.58.1.tar.gz"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
@@ -37,7 +37,7 @@ projects[file_entity][version] =  "2.2"
 
 projects[fontyourface][version] = "2.8"
 
-projects[entity][version] = "1.8"
+projects[entity][version] = "1.9"
 
 projects[entitycache][version] = "1.5"
 
@@ -65,7 +65,7 @@ projects[link][version] = "1.4"
 
 projects[mailchimp][version] = "4.8"
 
-projects[media_flickr][version] = "1.0-alpha4"
+projects[media_flickr][version] = "1.0-alpha5"
 
 projects[media_vimeo][version] = "2.1"
 
@@ -103,7 +103,7 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.17"
+projects[views][version] = "3.18"
 
 projects[views_fluid_grid][version] = "3.0"
 
