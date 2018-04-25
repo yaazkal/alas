@@ -45,7 +45,7 @@ projects[entityreference][version] = "1.5"
 
 projects[fb_social][version] = "2.0-beta4"
 
-projects[media][version] = "2.8"
+projects[media][version] = "2.19"
 
 projects[globalredirect][version] = "1.5"
 
