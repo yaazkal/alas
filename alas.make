@@ -4,7 +4,7 @@ api = 2
 core = 7.x
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.58.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.59.1.tar.gz"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
@@ -13,13 +13,13 @@ projects[ajax_poll][version] = "1.1"
 
 projects[apc][version] = "1.0-beta4"
 
-projects[audiofield][version] = "1.2"
+projects[audiofield][version] = "1.4"
 
 projects[seo_checker][version] = "1.8"
 
 projects[boolean][version] = "1.1"
 
-projects[ctools][version] = "1.12"
+projects[ctools][version] = "1.14"
 
 projects[checklistapi][version] = "1.2"
 
@@ -33,7 +33,7 @@ projects[db_maintenance][version] = "1.2"
 
 projects[delta][version] = "3.0-beta11"
 
-projects[file_entity][version] =  "2.2"
+projects[file_entity][version] =  "2.21"
 
 projects[fontyourface][version] = "2.8"
 
@@ -47,9 +47,9 @@ projects[fb_social][version] = "2.0-beta4"
 
 projects[media][version] = "2.19"
 
-projects[globalredirect][version] = "1.5"
+projects[globalredirect][version] = "1.6"
 
-projects[i18n][version] = "1.18"
+projects[i18n][version] = "1.24"
 
 projects[imagefield_focus][version] = "1.0"
 
@@ -61,15 +61,15 @@ projects[libraries][version] = "2.3"
 
 projects[lightbox2][version] = "1.0-beta1"
 
-projects[link][version] = "1.4"
+projects[link][version] = "1.5"
 
-projects[mailchimp][version] = "4.8"
+projects[mailchimp][version] = "4.9"
 
 projects[media_flickr][version] = "2.0-alpha5"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.4"
+projects[media_youtube][version] = "3.7"
 
 projects[mediafront][version] = "2.2"
 
@@ -87,7 +87,7 @@ projects[qa_checklist][version] = "1.1"
 
 projects[robotstxt][version] = "1.4"
 
-projects[search404][version] = "1.5"
+projects[search404][version] = "1.6"
 
 projects[seo_checklist][version] = "4.1"
 
@@ -103,7 +103,7 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 
 projects[views_fluid_grid][version] = "3.0"
 
