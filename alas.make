@@ -109,6 +109,8 @@ projects[views_fluid_grid][version] = "3.0"
 
 projects[webform][version] = "3.27"
 
+projects[webform_addmore][version] = "1.2"
+
 projects[xmlsitemap][version] = "2.3"
 
 ; Themes
