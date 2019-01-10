@@ -1,2 +1,0 @@
-deploy: |
-  drush make alas.make
