@@ -1,5 +1,5 @@
 // 1. Import the initial variables
-@import '../../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '~bulma/sass/utilities/initial-variables.sass';
 
 // 2. Set your own initial variables
 
@@ -7,7 +7,7 @@
 
 // 4. Import the rest of Bulma
 
-@import '../../node_modules/bulma/bulma.sass';
+@import '~bulma/bulma.sass';
 
 .hero-inicio {
   @extend .hero;
