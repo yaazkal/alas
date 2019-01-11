@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 const HeroInicio = () => (
-  <Hero isFullHeight isColor="black" className="hero-inicio">
+  <Hero isColor="black" className="hero-inicio is-fullheight-with-navbar">
     <HeroBody>
       <Container>
         <Columns>
