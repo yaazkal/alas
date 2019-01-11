@@ -10,6 +10,9 @@ import {
   Title,
 } from 'bloomer'
 
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+
 const HeroNosotros = () => (
   <Hero>
     <HeroBody>
@@ -40,7 +43,28 @@ const HeroNosotros = () => (
             </Content>
           </Column>
           <Column>
-            <Content>MULTIMEDIA</Content>
+            <Content>
+              <StaticQuery
+                query={graphql`
+                  query {
+                    placeholderImage: file(
+                      relativePath: {
+                        eq: "161126-fluturi-parque-bailarina.jpg"
+                      }
+                    ) {
+                      childImageSharp {
+                        fluid(maxWidth: 600) {
+                          ...GatsbyImageSharpFluid
+                        }
+                      }
+                    }
+                  }
+                `}
+                render={data => (
+                  <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+                )}
+              />
+            </Content>
           </Column>
         </Columns>
       </Container>

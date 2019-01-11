@@ -10,7 +10,8 @@ import {
   Title,
 } from 'bloomer'
 
-import Reconocimientos from '../reconocimientos'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 const HeroReconocimientos = () => (
   <Hero>
@@ -39,7 +40,24 @@ const HeroReconocimientos = () => (
                 nacional e internacional, los siguientes medios de comunicación
                 han reconocido nuestra labor:
               </p>
-              <Reconocimientos />
+              <StaticQuery
+                query={graphql`
+                  query {
+                    placeholderImage: file(
+                      relativePath: { eq: "reconocimientos.jpg" }
+                    ) {
+                      childImageSharp {
+                        fluid(maxWidth: 600) {
+                          ...GatsbyImageSharpFluid
+                        }
+                      }
+                    }
+                  }
+                `}
+                render={data => (
+                  <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+                )}
+              />
             </Content>
           </Column>
         </Columns>
