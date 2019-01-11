@@ -1,33 +1,55 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarBurger,
+  NavbarMenu,
+  NavbarStart,
+  NavbarEnd,
+  NavbarItem,
+  NavbarLink,
+  NavbarDropdown,
+  NavbarDivider,
+  Button,
+} from 'bloomer'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <div>
+    <Navbar className="is-fixed-top is-dark">
+      <NavbarBrand>
+        <NavbarItem href="/">{siteTitle}</NavbarItem>
+        <NavbarBurger />
+      </NavbarBrand>
+
+      <NavbarMenu>
+        <NavbarStart>
+          <NavbarItem href="/cursos">Cursos</NavbarItem>
+          <NavbarItem href="/blog">Blog</NavbarItem>
+          <NavbarItem hasDropdown isHoverable>
+            <NavbarLink href="/nosotros">Nosotros</NavbarLink>
+            <NavbarDropdown>
+              <NavbarItem href="/nosotros#historia">Historia</NavbarItem>
+              <NavbarDivider />
+              <NavbarItem href="/nosotros#artistas">Astistas</NavbarItem>
+              <NavbarItem href="/nosotros#obras">Orbas</NavbarItem>
+              <NavbarDivider />
+              <NavbarItem href="/archivo-de-prensa">
+                Archivo de prensa
+              </NavbarItem>
+            </NavbarDropdown>
+          </NavbarItem>
+        </NavbarStart>
+        <NavbarEnd>
+          <NavbarItem href="/contacto">Contacto</NavbarItem>
+          <NavbarItem>
+            <Button isColor="danger" href="/donar">
+              Donar
+            </Button>
+          </NavbarItem>
+        </NavbarEnd>
+      </NavbarMenu>
+    </Navbar>
   </div>
 )
 
