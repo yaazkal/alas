@@ -74,7 +74,7 @@ const IndexPage = () => (
       <HeroBody>
         <Container>
           <Columns>
-            <Column>
+            <Column isHidden="mobile">
               <iframe
                 title="Titanes Caracol Medellín"
                 width="560"
