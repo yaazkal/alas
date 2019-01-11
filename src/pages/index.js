@@ -13,7 +13,6 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Inicio"
-      lang="es"
       keywords={[
         `alas de mariposa`,
         `medellín`,
