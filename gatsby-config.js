@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Alas de mariposa`,
     description: `Corporación artística y cultural Alas de mariposa, ubicada en la ciudad de Medellín.`,
-    author: `@gatsbyjs`,
+    author: `@orbiware`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
