@@ -132,7 +132,7 @@ projects[session_expire][type] = "module"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://github.com/thinkshout/mailchimp-api-php/releases/download/v1.0.6/v1.0.6-package.zip"
+libraries[mailchimp][download][url] = "https://github.com/thinkshout/mailchimp-api-php/releases/download/v1.0.10/v1.0.10-package.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][type] = "library"
 
