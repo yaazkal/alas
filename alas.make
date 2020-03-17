@@ -33,7 +33,7 @@ projects[db_maintenance][version] = "1.3"
 
 projects[delta][version] = "3.0-beta11"
 
-projects[file_entity][version] =  "2.25"
+projects[file_entity][version] = "2.25"
 
 projects[fontyourface][version] = "2.8"
 
@@ -80,8 +80,6 @@ projects[module_filter][version] = "2.2"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[pathauto][version] = "1.3"
-
-projects[print][version] = "1.3"
 
 projects[qa_checklist][version] = "1.1"
 
