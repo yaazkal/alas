@@ -33,7 +33,7 @@ projects[db_maintenance][version] = "1.3"
 
 projects[delta][version] = "3.0-beta11"
 
-projects[file_entity][version] = "2.25"
+projects[file_entity][version] = "2.27"
 
 projects[fontyourface][version] = "2.8"
 
@@ -45,7 +45,7 @@ projects[entityreference][version] = "1.5"
 
 projects[fb_social][version] = "2.0-beta4"
 
-projects[media][version] = "2.23"
+projects[media][version] = "2.24"
 
 projects[globalredirect][version] = "1.6"
 
@@ -61,15 +61,15 @@ projects[libraries][version] = "2.5"
 
 projects[lightbox2][version] = "1.0-beta2"
 
-projects[link][version] = "1.6"
+projects[link][version] = "1.7"
 
-projects[mailchimp][version] = "4.11"
+projects[mailchimp][version] = "4.12"
 
 projects[media_flickr][version] = "2.0-alpha5"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.8"
+projects[media_youtube][version] = "3.9"
 
 projects[mediafront][version] = "2.2"
 
@@ -101,11 +101,11 @@ projects[transliteration][version] = "3.2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.23"
+projects[views][version] = "3.24"
 
 projects[views_fluid_grid][version] = "3.0"
 
-projects[webform][version] = "3.29"
+projects[webform][version] = "3.30"
 
 projects[webform_addmore][version] = "2.x-dev"
 
